@@ -1,51 +1,36 @@
-<section class="section--container">
-<div class="div--title">
-  <h2>Este proyecto fue desarrolado por</h2>
-  <img class="img--team" src="../../../assets/svg/Team.svg" alt="Team image">
-</div>
-<div class="div--team">
-    <div class="div--card">
-      <div class="div--name">
-        <img [src]="urlDave" alt="Imagen desarrollador">
-        <h5 class="card-title">Dave Gallego </h5>
-      </div>
-      <p class="card-text">Front-End developer.</p>
-      <div class="div--centerButton">
-        <a (click)="goToLink('https://github.com/DaveGallegoHernandez')" class="btn btn-primary">Ver perfil.</a>
-      </div>
-    </div>
-              
-    <div class="div--card">
-      <div class="div--name">
-        <img [src]="urlNicolas" alt="Imagen desarrollador">
-        <h5 class="card-title">Nicolas Jiménez</h5>
-      </div>
-      <p class="card-text">Diseñador UI/UX Front-End developer.</p>
-      <div class="div--centerButton">
-        <a (click)="goToLink('https://github.com/Nicolas-alt')" class="btn btn-primary">Ver perfil.</a>
-      </div>
-    </div>
+import React from 'react'
 
-    <div class="div--card">
-      <div class="div--name">
-        <img [src]="urlDaniel" alt="Imagen desarrollador">
-        <h5 class="card-title">Daniel  Páez</h5>
-      </div>
-      <p class="card-text">Front-End developer.</p>
-      <div class="div--centerButton">
-      <a (click)="goToLink('https://github.com/DanielPaezb')" class="btn btn-primary">Ver perfil.</a>
-      </div>
+export const Team = () => {
+  return(
+    <section className="section--container">
+    <div className="div--title">
+      <h2>Este proyecto fue desarrolado por</h2>
+      <img className="img--team" src="../../../assets/svg/Team.svg" alt="Team image" />
     </div>
+    <div className="div--team">
+      <div className="div--card">
+        <div className="div--name">
+          <img  alt="Imagen desarrollador" />
+          <h5 className="card-title">Nicolas Jiménez</h5>
+        </div>
+        <p className="card-text">Diseñador UI/UX Front-End developer.</p>
+        <div className="div--centerButton">
+          <a className="btn btn-primary">Ver perfil.</a>
+        </div>
+      </div>
 
-    <div class="div--card">
-      <div class="div--name">
-        <img [src]="urlSantiago" alt="Imagen desarrollador">
-        <h5 class="card-title">Santiago Guerrero</h5>
-      </div>
-      <p class="card-text">Web Designer.</p>
-      <div class="div--centerButton">
-        <a (click)="goToLink('https://github.com/Santiago1109')" class="btn btn-primary">Ver perfil.</a>
+      <div className="div--card">
+        <div className="div--name">
+          <img  alt="Imagen desarrollador" />
+          <h5 className="card-title">Daniel  Páez</h5>
+        </div>
+        <p className="card-text">Front-End developer.</p>
+        <div className="div--centerButton">
+        </div>
       </div>
     </div>
-    </div>
-</section>
+  </section>
+  );
+}
+
+export default Team;

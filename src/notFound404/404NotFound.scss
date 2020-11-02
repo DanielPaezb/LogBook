@@ -1,18 +1,17 @@
-$bg: url('../../../assets/svg/404.svg')
+$bg: url('../assets/svg/404.svg');
 
-.section--container
-    width: 100%
-    height: 100vh
-    background-image: $bg
-    background-repeat: no-repeat
-    background-position: 110% 80%
-    display: flex
-    align-items: flex-start
-    flex-direction: column
-    padding: 200px 0 0 150px
+.section--container{
+    width: 100%;
+    height: 100vh;
+    background-image: $bg;
+    background-repeat: no-repeat;
+    background-position: 110% 80%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 200px 0 0 150px;
+}
 
-h1
-    margin: 20px 0 
+h1 { margin: 20px 0 }
 
-p
-    font-size: 30px
+p { font-size: 30px }
