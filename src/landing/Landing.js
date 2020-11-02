@@ -1,5 +1,6 @@
 import React from 'react';
 import './landing.scss'
+import img from '../assets/svg/landing.svg'
 
 function Landing () {
   return (
@@ -14,7 +15,7 @@ function Landing () {
       </section>
 
       <section className="section--midle section--midle2">
-        <img className="img--svg" src="../../assets/svg/landing.svg" alt="Imagen de personal gestionando en celular." />
+        <img className="img--svg" src={ img } alt="Imagen de personal gestionando en celular." />
       </section>
     </section>
   );
