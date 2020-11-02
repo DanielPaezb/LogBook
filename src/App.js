@@ -1,11 +1,9 @@
 import React from 'react';
+import Home from './componets/home/Home'
 
 function App() {
   return (
-    <div className="App">
-        <h1>El proyecto ya está limpio, ahora sí ya podemos comenzar :fuckyeah:</h1>
-        <p>Dependencias que instalé: sass, router</p>
-    </div>
+    <Home />
   );
 }
 
