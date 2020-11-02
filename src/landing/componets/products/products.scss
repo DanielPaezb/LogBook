@@ -1,0 +1,14 @@
+.section--container
+    width: 100%
+
+.div--card
+    width: 100%
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+
+.example-card
+    border: 0.5px solid gray
+    min-width: 250px
+    margin: 20px 50px
+
