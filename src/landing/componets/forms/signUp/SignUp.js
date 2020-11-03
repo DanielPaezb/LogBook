@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import '../signUp/signUp.scss';
 
 export const SignUp = () => {
     return (
