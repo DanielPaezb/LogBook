@@ -18,10 +18,10 @@ export const AppRoutes = () => {
                 <Switch>
                     {/* Landing */}
                     <Route exact path="/" component={ Home } />
-                    <Route exact path="/signin" component={ SignIn } />
-                    <Route exact path="/signup" component={ SignUp } />
                     <Route exact path="/team" component={ Team } />
                     <Route exact path="/terms" component={ Terms } />
+                    <Route exact path="/login" component={ SignIn } />
+                    <Route exact path="/register" component={ SignUp } />
                     
                     {/* DashBoard */}
                     
