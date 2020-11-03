@@ -1,11 +1,12 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 
 export const Team = () => {
   return(
     <section className="section--container">
     <div className="div--title">
       <h2>Este proyecto fue desarrolado por</h2>
-      <img className="img--team" src="../../../assets/svg/Team.svg" alt="Team image" />
+      <img className="img--team" src="../../../assets/svg/Team.svg" alt="Team logo" />
     </div>
     <div className="div--team">
       <div className="div--card">
@@ -15,7 +16,7 @@ export const Team = () => {
         </div>
         <p className="card-text">Diseñador UI/UX Front-End developer.</p>
         <div className="div--centerButton">
-          <a className="btn btn-primary">Ver perfil.</a>
+        <Link to="/">Ver perfil.</Link>
         </div>
       </div>
 
@@ -26,6 +27,7 @@ export const Team = () => {
         </div>
         <p className="card-text">Front-End developer.</p>
         <div className="div--centerButton">
+        <Link to="/">Ver perfil.</Link>
         </div>
       </div>
     </div>

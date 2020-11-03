@@ -1,9 +1,12 @@
 import React from 'react';
 import './landing.scss'
 import img from '../assets/svg/landing.svg'
+import NavBar from './componets/navbar/NavBar';
 
 function Landing () {
   return (
+    <>
+    <NavBar />
     <section className="section--container">
       <section className="section--midle section--midle1">
         <h1>LogBook</h1>
@@ -18,6 +21,7 @@ function Landing () {
         <img className="img--svg" src={ img } alt="Imagen de personal gestionando en celular." />
       </section>
     </section>
+    </>
   );
 }
 

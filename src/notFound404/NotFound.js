@@ -1,5 +1,6 @@
 import React from 'react'
-import './404NotFound.scss'
+import { Link } from "react-router-dom";
+import './notFound.scss'
 
 export const NotFound = () => {
     return (
@@ -7,7 +8,7 @@ export const NotFound = () => {
             <p className="p--principal">¿Dónde está el contenido que buscas?</p>
             <p className="p--secundary">Extinto.</p>
             <h1>404</h1>
-            <a  className="btn btn-primary" >Volver a un lugar feliz</a>
+            <Link to="/">Volver a unlugar feliz</Link>
         </section>
     );
 }
