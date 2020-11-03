@@ -2,8 +2,8 @@ import React from 'react'
 
 export const NavBar = () => {
   return(
-
-    <h2>Nav</h2>
+<></>
+    // <h2>Nav</h2>
     // <nav class="navbar navbar-expand-lg navbar-light ">
     //   <a class="navbar-brand" href="#">LogBook</a>
     //   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

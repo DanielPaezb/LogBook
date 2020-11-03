@@ -1,14 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
-import Landing from './landing/Landing';
-
-
+import LandinApp from './landing/LandingApp';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Landing />
+      <LandinApp />
   </React.StrictMode>,
   document.getElementById('root')
 );
-
