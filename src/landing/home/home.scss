@@ -24,7 +24,7 @@ $bg-image: url('../../assets/svg/Background.svg');
   padding: 0 10%;
 
   h1 { 
-    font-size: 5rem;
+    font-size: 6rem;
     margin-top: -50px;
     margin-bottom: 20px;
     color: #8815FF; 
@@ -35,12 +35,13 @@ $bg-image: url('../../assets/svg/Background.svg');
   }
 
   .p--lema {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: 500;
   }
 
   .p--informacion {
     text-align: center;
+    font-size: 1.1rem;
   }
 }
 
