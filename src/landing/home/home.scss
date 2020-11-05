@@ -79,11 +79,19 @@ $bg-image: url('../../assets/svg/Background.svg');
 
     .section--midle1 { padding-top: 80px; }
 
-    .p--informacion { min-width: 280px; }
+  .a--button1 {
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
 
-    .div--centerButtons{
-        min-width: 280px;
-        flex-direction: column;
+  .a--button2 {
+    font-size: 25px;
+    color: #fd00b4;
+    border: 1px solid #fd00b4;
+  }
 }
     .p--lema { min-width: 280px; }
 
@@ -100,4 +108,4 @@ $bg-image: url('../../assets/svg/Background.svg');
         color: #FD00B4;
         border: 1px solid #FD00B4;
     }
-}
+
