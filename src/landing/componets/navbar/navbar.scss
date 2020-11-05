@@ -1,11 +1,21 @@
-header {
-    position: absolute;
+@import '../../../assets/sass/_base/_var.scss';
+
+.header--nav {
+  position: absolute;
+  height: $navPadding;
 }
 
 ul {
     display: flex;
+    list-style: none;
 
     li {
-        margin-left: 20px;
+        margin-left: 80px;
+
+        a{
+            font-weight: 500;
+            font-size: 1.3rem;
+            text-decoration: none;
+        }
     }
 }
