@@ -12,21 +12,15 @@ import NotFound from '../landing/componets/notFound404/NotFound';
 export const AppRoutes = () => {
     return (
         <Router>
-            <>
-                <NavBar />
-
-                <Switch>
-                    {/* Landing */}
-                    <Route exact path="/" component={ Home } />
-                    <Route exact path="/team" component={ Team } />
-                    <Route exact path="/terms" component={ Terms } />
-                    <Route exact path="/login" component={ SignIn } />
-                    <Route exact path="/register" component={ SignUp } />
-                    
-                    {/* DashBoard */}
-                    
-                </Switch>
-            </>
+          <NavBar />
+            <Switch>
+                <Route exact path="/" component={Home} />
+                <Route exact path="/team" component={Team} />
+                <Route exact path="/terms" component={Terms} />
+                <Route exact path="/login" component={SignIn} />
+                <Route exact path="/register" component={SignUp} />
+                <Route component={NotFound} />
+            </Switch>
         </Router>
     );
 }
