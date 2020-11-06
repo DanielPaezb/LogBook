@@ -14,6 +14,7 @@ $bg-image: url('../../assets/svg/Background.svg');
     grid-template-columns:  repeat(2, 1fr);
     grid-template-rows:  1fr;
     grid-template-areas: "item1 item2";
+    overflow: hidden;
 }
 
 .section--mainItem1 {
@@ -47,10 +48,12 @@ $bg-image: url('../../assets/svg/Background.svg');
 
 .section--mainItem2 {
 
-  grid-area: item2; 
+  grid-area: item2;
   @include flex-center();
-  .img--svg {
-      width: 80%;
+
+  .img--svgHome {
+    height: 100;
+    width: 80%;
   }
 }
 

@@ -6,7 +6,7 @@ export const Home = () => {
   return (
     <>
       <section className="section--main">
-        <section className="containerItem section--mainItem1">
+        <section className="containerItem section--mainItem1 animate__animated animate__fadeInDown">
           <h1>LogBook</h1>
           <p className="p--lema">Gestiona el mundo en un solo click.</p>
           <p className="p--informacion">
@@ -14,8 +14,8 @@ export const Home = () => {
             de herramientas he ingenio para obtener el mayor rendimiento en sus propositos.
                     </p>
         </section>
-        <section className="containerItem section--mainItem2">
-          <img className="img--svg" src={img} alt="Imagen de personal gestionando en celular." />
+        <section className="containerItem section--mainItem2 animate__animated animate__fadeInUp">
+          <img className="img--svgHome" src={img} alt="Imagen de personal gestionando en celular." />
         </section>
       </section>
     </>
