@@ -8,17 +8,19 @@ import SignUp from '../landing/componets/forms/signUp/SignUp';
 import Team from '../landing/componets/team/Team';
 import Terms from '../landing/componets/terms/Terms';
 import NotFound from '../landing/componets/notFound404/NotFound';
+import Information from '../landing/componets/information/Information';
 
 export const AppRoutes = () => {
     return (
         <Router>
           <NavBar />
             <Switch>
-                <Route exact path="/" component={Home} />
-                <Route exact path="/team" component={Team} />
-                <Route exact path="/terms" component={Terms} />
-                <Route exact path="/login" component={SignIn} />
-                <Route exact path="/register" component={SignUp} />
+                <Route exact path="/" component={ Home } />
+                <Route exact path="/about" component={ Information } />
+                <Route exact path="/team" component={ Team } />
+                <Route exact path="/terms" component={ Terms } />
+                <Route exact path="/login" component={ SignIn } />
+                <Route exact path="/register" component={ SignUp } />
                 <Route component={NotFound} />
             </Switch>
         </Router>
