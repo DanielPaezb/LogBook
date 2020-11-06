@@ -1,13 +1,16 @@
 @import '../../../assets/sass/_base/_var.scss';
+@import '../../../assets/sass/_base/mixings';
 
 .header--nav {
   position: absolute;
   height: $navPadding;
+  @include flex-center;
 }
 
 ul {
     display: flex;
     list-style: none;
+    align-items: center;
 
     li {
         margin-left: 80px;
@@ -16,6 +19,11 @@ ul {
             font-weight: 500;
             font-size: 1.3rem;
             text-decoration: none;
+            color: black;
         }
+    }
+
+    a:hover{
+        border-bottom: 2.5px solid black;
     }
 }
