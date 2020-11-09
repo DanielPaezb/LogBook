@@ -1,14 +1,10 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-  }
-  body {
-    display: flex;
-    justify-content: center;
-    background: #f2f2f2;
-  }
+* { box-sizing: border-box; }
+
+  // body {
+  //   display: flex;
+  //   justify-content: center;
+  //   background: #f2f2f2;
+  // }
   .main-form-section {
     width: 50%;
     height: 100vh;

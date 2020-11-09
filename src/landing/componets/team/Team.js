@@ -1,38 +1,23 @@
 import React from 'react'
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom"
+import imageUrl from '../../../assets/svg/Team.svg'
+import teamData from './teamData'
+import './team.scss';
 
 export const Team = () => {
-  return(
-    <section className="section--container">
-    <div className="div--title">
-      <h2>Este proyecto fue desarrolado por</h2>
-      <img className="img--team" src="../../../assets/svg/Team.svg" alt="Team logo" />
-    </div>
-    <div className="div--team">
-      <div className="div--card">
-        <div className="div--name">
-          <img  alt="Imagen desarrollador" />
-          <h5 className="card-title">Nicolas Jiménez</h5>
+  return (
+    <section className="containerItem section--containerTeam">
+      {teamData.map(dat => (
+        <div className="div--cardTeam">
+          <img className="img--cardTeam" src={dat.picture} alt="Image member team" />
+          <h3 className="h3--cardTitle">{dat.name}</h3>
+          <p>{dat.roll}</p>
+          <a className="a--cardLink" href={dat.gitUlr} target="_blank">Perfil</a>
         </div>
-        <p className="card-text">Diseñador UI/UX Front-End developer.</p>
-        <div className="div--centerButton">
-        <Link to="/">Ver perfil.</Link>
-        </div>
-      </div>
-
-      <div className="div--card">
-        <div className="div--name">
-          <img  alt="Imagen desarrollador" />
-          <h5 className="card-title">Daniel  Páez</h5>
-        </div>
-        <p className="card-text">Front-End developer.</p>
-        <div className="div--centerButton">
-        <Link to="/">Ver perfil.</Link>
-        </div>
-      </div>
-    </div>
-  </section>
+      ))}
+    </section>
   );
 }
 
 export default Team;
+
