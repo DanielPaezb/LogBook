@@ -31,7 +31,8 @@ export const SignIn = () => {
             <label for="validar"> Recuerdame</label>
           </div>
           <div class="item-recover">
-            <a href="./recuperarCuenta.html">¿Olvidaste tu contraseña?</a>
+
+            <a href="/login/recover">¿Olvidaste tu contraseña?</a>
           </div>
         </div>
         <div class="form-container-submit">

@@ -8,7 +8,7 @@ export const Team = () => {
   return (
     <section className="containerItem section--containerTeam">
       {teamData.map(dat => (
-        <div className="div--cardTeam">
+        <div className="div--cardTeam" key={dat.id}>
           <img className="img--cardTeam" src={dat.picture} alt="Image member team" />
           <h3 className="h3--cardTitle">{dat.name}</h3>
           <p>{dat.roll}</p>
