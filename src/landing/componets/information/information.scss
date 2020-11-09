@@ -1,58 +1,18 @@
-@mixin display-flex { display: flex; }
+@import '../../../assets/sass/_base/components';
 
+$padding: 15%;
 
-.section--container {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.section--Information {
+  height: 100vh;
+  padding-right: $padding;
+  padding-left: $padding;
+
+  .h2--information {
+    text-transform: uppercase;
+    margin: 30px 0;
+  }
+
+  .p--information {
+    text-align: justify;
+  }
 }
-
-.div--info { width: 100%; }
-
-.div--h1 {
-    width: 100%;
-    height: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url('../../../assets/svg/left-top.svg');
-    background-repeat: no-repeat;
-}
-
-
-.div--middle { width: 50% }
-
-img {
-    width: 70%;
-    height: 70%;
-}
-
-.div--1,
-.div--2,
-.div--3,
-.div--4 {
-    height: 500px;
-    width: 100%;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.div--1{
-    background-image: url('../../../assets/svg/rigth-bottom.svg');
-    background-position: bottom right;
-}
-
-.div--2 { background-image: url('../../../assets/svg/left-top.svg'); }
-
-.div--3 {
-    background-image: url('../../../assets/svg/rigth-bottom.svg');
-    background-position: bottom right; 
-}
-
-
-.div--4{ background-image: url('../../../assets/svg/left-top.svg'); }
