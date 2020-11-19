@@ -8,26 +8,14 @@
 <br />
 
 <p align="center">
-  <a href="#">
-    <img src="https://img.shields.io/badge/LICENCE-NOT%20SPECIFIED-blue" alt="licence"> <!--Shield licence-->
+  <a href="https://github.com/DanielPaezb/LogBook/issues">
+    <img alt="GitHub issues" src="https://img.shields.io/github/issues/DanielPaezb/LogBook?style=for-the-badge">
   </a>
   <a href="#">
-    <img src="https://img.shields.io/badge/HTML5-2.4%25-blue" alt="porcent html"> <!--Shield porcent html-->
+    <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/DanielPaezb/LogBook?style=for-the-badge">
   </a>
   <a href="#">
-    <img src="https://img.shields.io/badge/REPO%20SIZE-90.1%20MB-blue" alt="Repo-size"> <!--Shield repo-size-->
-  </a>
-  <a href="#">
-    <img src="https://img.shields.io/badge/COMMIT%20ACTIVITY-30%2FMONTH-blue" alt="COMMIT ACTIVITY"> <!--Shield commit activity-->
-  </a>
-  <a href="#">
-    <img src="https://img.shields.io/badge/STARS-3-blue" alt="stars"> <!--Shield stars-->
-  </a>
-  <a href="#">
-    <img src="https://img.shields.io/badge/FORKS-1-blue" alt="forks"> <!--Shield forks-->
-  </a>
-  <a href="#">
-    <img src="https://img.shields.io/badge/TAG-V0.3-blue" alt="tag"> <!--Shield tag-->
+    <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/w/DanielPaezb/LogBook?style=for-the-badge">
   </a>
 </p>
 <h2 align="center">"Gestiona el mundo en un solo click. :earth_americas:"</h2> 
