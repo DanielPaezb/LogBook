@@ -1,11 +1,24 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './assets/sass/index.scss';
-import LandinApp from './landing/LandingApp';
+import React from "react";
+import ReactDOM from "react-dom";
+import {createBrowserHistory} from "history";
+import {Router, Route, Switch, Redirect} from "react-router-dom";
+
+import AdminLayout from "layouts/Admin";
+
+import "assets/scss/black-dashboard-react.scss";
+import "assets/demo/demo.css";
+import "assets/css/nucleo-icons.css";
+import LandingApp from "layouts/LandingApp";
+
+const hist = createBrowserHistory();
 
 ReactDOM.render(
-  <React.StrictMode>
-    <LandinApp />
-  </React.StrictMode>,
-  document.getElementById('root')
+  <Router history={hist}>
+    <Switch>
+      <Route exact path="/" component={LandingApp} />
+      <Route path="/admin" render={props => <AdminLayout {...props} />} />
+      <Redirect from="/admin" to="/admin/dashboard" />
+    </Switch>
+  </Router>,
+  document.getElementById("root")
 );

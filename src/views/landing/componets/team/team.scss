@@ -1,0 +1,41 @@
+@import '../../../../assets/sass/_base/mixings';
+
+.section--containerTeam {
+   @include flex-center; 
+   flex-wrap: wrap;
+   width: 100%;
+   height: 100vh;
+
+    .div--cardTeam {
+     height: 350px;
+     width: 250px;
+     margin: 20px 30px;
+     padding: 30px 20px;
+     border-radius: 10px;
+     @include flex-center;
+     flex-direction: column;
+     justify-content: space-around;
+     border: 1px solid black; 
+
+     .img--cardTeam {
+       border-radius: 100%;
+       margin-bottom: -10px; 
+       height: 100px;
+       width: 100px;
+      }
+
+      .h3--cardTitle {
+        margin-bottom: -20px;
+      }
+
+      .a--cardLink {
+        background-color: #7C72FF;
+        color: white;
+        padding: 10px 30px;
+        border-radius: 5px;
+        cursor: pointer;
+        text-decoration: none;
+      }
+  }
+}
+

@@ -1,0 +1,115 @@
+@import '../../../../assets/sass/_base/var';
+@import '../../../../assets/sass/_base/mixings';
+
+$bg-image: url('../../../../assets/svg/Background.svg');
+
+.section--main {
+    height: 100vh;
+    width: 100vw;
+    background-image: $bg-image;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: -100px;
+    display: grid;
+    grid-template-columns:  repeat(2, 1fr);
+    grid-template-rows:  1fr;
+    grid-template-areas: "item1 item2";
+    overflow: hidden;
+}
+
+.section--mainItem1 {
+  
+  grid-area: item1;
+  @include flex-center();
+  flex-direction: column;
+  padding: 0 10%;
+
+  h1 { 
+    font-size: 6rem;
+    margin-top: -50px;
+    margin-bottom: 20px;
+    color: #8815FF; 
+  }
+
+  p {
+    margin: 10px 0;
+  }
+
+  .p--lema {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+
+  .p--informacion {
+    text-align: center;
+    font-size: 1.1rem;
+  }
+}
+
+.section--mainItem2 {
+
+  grid-area: item2;
+  @include flex-center();
+
+  .img--svgHome {
+    height: 100;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 900px){
+
+    .section--mainItem1 {
+      h1 { color: white; }
+    }
+
+    .section--mainItem2 {
+      .img--svg {
+          width: 80%;
+      }
+    }
+
+    .section--main {
+        flex-direction: column-reverse;
+        background-image: none;
+        background: linear-gradient(150deg, 
+        rgba(255,255,255,0) 0%,
+        rgba(183,110,255,0.5102415966386555) 13%,
+        rgba(116,8,223,1) 64%);
+        width: 100%;
+        min-height: 180vh;
+}
+    .section--midle { height: 80vh; }
+
+    .section--midle1 { padding-top: 80px; }
+
+  .a--button1 {
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .a--button2 {
+    font-size: 25px;
+    color: #fd00b4;
+    border: 1px solid #fd00b4;
+  }
+}
+    .p--lema { min-width: 280px; }
+
+    .a--button1 {
+        color: white;
+        background-color: transparent;
+        border: 1px solid white;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .a--button2 {
+        font-size: 25px;
+        color: #FD00B4;
+        border: 1px solid #FD00B4;
+    }
+

@@ -1,0 +1,24 @@
+@import '../../../../assets/sass/_base/components';
+
+$padding: 15%;
+
+.section--terms {
+    padding-left: $padding;
+    padding-right: $padding;
+    padding-bottom: 5%;
+}
+
+.h1--terms,
+.h3--terms {
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.h3--terms {
+    text-align: center;
+}
+
+.p--terms {
+    text-align: justify;
+    line-height: 1.5rem;
+}

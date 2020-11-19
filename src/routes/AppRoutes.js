@@ -1,15 +1,14 @@
 import React from 'react';
-import NavBar from '../landing/componets/navbar/NavBar';
+import NavBar from 'views/landing/componets/navbar/NavBar';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
-
-import Home from '../landing/home/Home';
-import SignIn from '../landing/componets/forms/signIn/SignIn';
-import SignUp from '../landing/componets/forms/signUp/SignUp';
-import Team from '../landing/componets/team/Team';
-import Terms from '../landing/componets/terms/Terms';
-import NotFound from '../landing/componets/notFound404/NotFound';
-import Information from '../landing/componets/information/Information';
-import RecoverPassword from '../landing/componets/forms/recoverPassword/RecoverPassword';
+import Home from 'views/landing/componets/home/Home';
+import Information from 'views/landing/componets/information/Information';
+import Team from 'views/landing/componets/team/Team';
+import SignIn from 'views/landing/componets/forms/signIn/SignIn';
+import SignUp from 'views/landing/componets/forms/signUp/SignUp';
+import RecoverPassword from 'views/landing/componets/forms/recoverPassword/RecoverPassword';
+import Terms from 'views/landing/componets/terms/Terms';
+import NotFound from 'views/landing/componets/notFound404/NotFound';
 
 export const AppRoutes = () => {
   return (
