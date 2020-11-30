@@ -1,0 +1,18 @@
+@import '../../../../scss/_base/components';
+
+$padding: 15%;
+
+.section--Information {
+  height: 100vh;
+  padding-right: $padding;
+  padding-left: $padding;
+
+  .h2--information {
+    text-transform: uppercase;
+    margin: 30px 0;
+  }
+
+  .p--information {
+    text-align: justify;
+  }
+}

@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import  AppRouter  from './routers/AppRouter';
 
-import LandingApp from './components/landing/LandingApp'
-import './sass/index.scss';
+
+import './scss/index.scss';
 
 ReactDOM.render(
   <React.StrictMode>
-    <LandingApp />
+    <AppRouter />
   </React.StrictMode>,
   document.getElementById('root')
 );
