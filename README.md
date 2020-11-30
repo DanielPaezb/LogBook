@@ -1,5 +1,5 @@
 <h1 align="center">
-    <a href="./src/Home_logBook/index.html"><img src="./src/assets/img/user.png" alt="User image" width="300" height="300"></a>
+    <a href="/"><img src="./src/assets/img/user.png" alt="User image" width="300" height="300"></a>
     <!--Tittle-->
     <br />
     LogBook
@@ -8,12 +8,15 @@
 <br />
 
 <p align="center">
+<!-- issues -->
   <a href="https://github.com/DanielPaezb/LogBook/issues">
     <img alt="GitHub issues" src="https://img.shields.io/github/issues/DanielPaezb/LogBook?style=for-the-badge">
   </a>
+  <!-- size -->
   <a href="#">
     <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/DanielPaezb/LogBook?style=for-the-badge">
   </a>
+  <!-- commits per week -->
   <a href="#">
     <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/w/DanielPaezb/LogBook?style=for-the-badge">
   </a>
