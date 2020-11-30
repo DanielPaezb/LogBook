@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './assets/sass/index.scss';
-import LandinApp from './landing/LandingApp';
+
+import LandingApp from './components/landing/LandingApp'
+import './sass/index.scss';
 
 ReactDOM.render(
   <React.StrictMode>
-    <LandinApp />
+    <LandingApp />
   </React.StrictMode>,
   document.getElementById('root')
 );
