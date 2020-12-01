@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Filter = () => {
+const Opinion = () => {
     return (
         <div>
-           Filter 
+           Opinion 
         </div>
     )
 }
 
-export default Filter
+export default Opinion

@@ -18,54 +18,36 @@ const Sidebar = () => {
              </div>
              
              <li className="nav-item">
-                 <Link className="nav-link" to="" >
+                 <Link className="nav-link" to="/dash/home" >
                     <i class="fas fa-fw fa-table"></i>
                     <span>Home</span>
                 </Link>
              </li>
 
              <li className="nav-item">
-                 <a className="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
-                     aria-expanded="true" aria-controls="collapseTwo">
-                     <i className="fas fa-fw fa-cog"></i>
-                     <span>Filter</span>
-                 </a>
-               
-                 <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-                     <div className="bg-white py-2 collapse-inner rounded">
-                     <form className="form-inline mr-auto w-100 navbar-search">
-                            <div className="input-group">
-                                <input type="text" className="form-control bg-light border-0 small"
-                                    placeholder="Search for..." aria-label="Search"
-                                    aria-describedby="basic-addon2" />
-                                <div className="input-group-append">
-                                    <button className="btn btn-primary" type="button">
-                                        <i className="fas fa-search fa-sm"></i>
-                                    </button>
-                                </div>
-                            </div>
-                     </form>
-                     </div>
-                 </div>
+                 <Link className="nav-link" to="/dash/filter" >
+                 <i className="fas fa-fw fa-cog"></i>
+                    <span>Filter</span>
+                </Link>
              </li>
-     
 
+           
              <li className="nav-item">
-                 <Link className="nav-link" to="" >
+                 <Link className="nav-link" to="/dash/add" >
                     <i class="fas fa-fw fa-table"></i>
                     <span>New People</span>
                 </Link>
              </li>
 
              <li className="nav-item">
-                 <Link className="nav-link" to="" >
+                 <Link className="nav-link" to="/dash/error" >
                     <i class="fas fa-fw fa-table"></i>
                     <span>Error Report</span>
                 </Link>
              </li>
 
              <li className="nav-item">
-                 <Link className="nav-link" to="" >
+                 <Link className="nav-link" to="/dash/feelback" >
                     <i class="fas fa-fw fa-table"></i>
                     <span>Feelback</span>
                 </Link>

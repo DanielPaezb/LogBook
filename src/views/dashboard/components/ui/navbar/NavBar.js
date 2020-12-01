@@ -1,7 +1,9 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
+import { Link, Redirect } from 'react-router-dom';
 
 export const NavBar = () => {
+
+ 
   return(
 <nav className="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
 
@@ -41,7 +43,7 @@ export const NavBar = () => {
                         placeholder="Search for..." aria-label="Search"
                         aria-describedby="basic-addon2" />
                     <div className="input-group-append">
-                        <button className="btn btn-primary" type="button">
+                        <button className="btn btn-primary" type="button" >
                             <i className="fas fa-search fa-sm"></i>
                         </button>
                     </div>
@@ -97,7 +99,7 @@ export const NavBar = () => {
                     Spending Alert: We've noticed unusually high spending for your account.
                 </div>
             </a>
-            <a className="dropdown-item text-center small text-gray-500" to="#">Show All Alerts</a>
+            <Link className="dropdown-item text-center small text-gray-500" to="/dash/notifications">Show All Alerts</Link>
         </div>
     </li>
 
@@ -163,7 +165,7 @@ export const NavBar = () => {
                     <div className="small text-gray-500">Chicken the Dog · 2w</div>
                 </div>
             </a>
-            <a className="dropdown-item text-center small text-gray-500" to="#">Read More Messages</a>
+            <Link className="dropdown-item text-center small text-gray-500" to="/dash/messages">Read More Messages</Link>
         </div>
     </li>
 
@@ -180,15 +182,15 @@ export const NavBar = () => {
  
         <div className="dropdown-menu dropdown-menu-right shadow animated--grow-in"
             aria-labelledby="userDropdown">
-            <Link className="dropdown-item" to="#">
+            <Link className="dropdown-item" to="/dash/profile">
                 <i className="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
                 Profile
             </Link>
-            <Link className="dropdown-item" to="#">
+            <Link className="dropdown-item" to="/dash/settings">
                 <i className="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
                 Settings
             </Link>
-            <Link className="dropdown-item" to="#">
+            <Link className="dropdown-item" to="/dash/log">
                 <i className="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
                 Activity Log
             </Link>
