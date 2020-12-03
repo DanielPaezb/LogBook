@@ -193,7 +193,7 @@ export const NavBar = () => {
               Douglas McGee
             </span>
             <img className="img-profile rounded-circle"
-              src="img/undraw_profile.svg" />
+              src="https://www.tubefilter.com/wp-content/uploads/2019/11/dobrik-people.jpg" />
           </a>
 
           {/* Drop down menú user */}
