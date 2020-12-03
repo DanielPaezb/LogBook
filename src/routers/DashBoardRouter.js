@@ -17,15 +17,27 @@ export const DashBoardRouter = () => {
     <Switch>
       <Route exact path="/dash/home" component={Home} />
       <Route exact path="/dash/seach" component={SearchScreen} />
+
+      {/* Profile, update settings, etc */}
       <Route exact path="/dash/settings" component={Settings} />
       <Route exact path="/dash/profile" component={Profile} />
       <Route exact path="/dash/filter" component={Filter} />
-      <Route exact path="/dash/log" component={ActivityLog} />
-      <Route exact path="/dash/notifications" component={NotificationScreen} />
-      <Route exact path="/dash/messages" component={MessageScreen} />
+
+      {/* Admin permissions */}
       <Route exact path="/dash/add" component={NewUser} />
+      <Route exact path="/dash/log" component={ActivityLog} />
+
+      {/* Addons */}
+      <Route exact path="/dash/messages" component={MessageScreen} />
+      <Route exact path="/dash/notifications" component={NotificationScreen} />
+
+      {/* Log error of system log screen */}
       <Route exact path="/dash/error" component={Error} />
+
+      {/* Opinion form */}
       <Route exact path="/dash/feelback" component={Opinion} />
+
+      {/* Default redirect */}
       <Redirect to="/dash/home" />
     </Switch>
   );

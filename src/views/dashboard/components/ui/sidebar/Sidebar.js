@@ -1,13 +1,15 @@
-import React from 'react'
-import {Link} from 'react-router-dom'
+import React from 'react';
+import {Link} from 'react-router-dom';
 
 const Sidebar = () => {
   return (
+    // Sidebar general container 
     <ul className="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
+      {/* Sidebar header title */}
       <Link className="sidebar-brand d-flex align-items-center justify-content-center" to="/dash/home">
-        <div className="sidebar-brand-icon rotate-n-15">
-          <i className="fas fa-laugh-wink"></i>
+        <div className="sidebar-brand-icon ">
+          <i className="far fa-chart-bar"></i>
         </div>
         <div className="sidebar-brand-text mx-3">LogBook</div>
       </Link>
@@ -18,49 +20,41 @@ const Sidebar = () => {
         General
       </div>
 
+      {/* General links */}
       <li className="nav-item">
         <Link className="nav-link" to="/dash/home" >
-          <i class="fas fa-fw fa-table"></i>
+          <i className="fas fa-home"></i>
           <span>Home</span>
         </Link>
       </li>
 
       <li className="nav-item">
         <Link className="nav-link" to="/dash/filter" >
-          <i className="fas fa-fw fa-cog"></i>
+          <i className="fas fa-sort-amount-down-alt"></i>
           <span>Filter</span>
         </Link>
       </li>
 
-
       <li className="nav-item">
         <Link className="nav-link" to="/dash/add" >
-          <i class="fas fa-fw fa-table"></i>
+          <i className="fas fa-user-plus"></i>
           <span>New People</span>
         </Link>
       </li>
 
       <li className="nav-item">
         <Link className="nav-link" to="/dash/error" >
-          <i class="fas fa-fw fa-table"></i>
+          <i className="fas fa-exclamation-circle"></i>
           <span>Error Report</span>
         </Link>
       </li>
 
       <li className="nav-item">
         <Link className="nav-link" to="/dash/feelback" >
-          <i class="fas fa-fw fa-table"></i>
+          <i className="far fa-comment-alt"></i>
           <span>Feelback</span>
         </Link>
       </li>
-
-      <li className="nav-item">
-        <Link className="nav-link" to="/dash/feelback" >
-          <i class="fas fa-fw fa-table"></i>
-          <span>Feelback</span>
-        </Link>
-      </li>
-
 
     </ul>
   )
