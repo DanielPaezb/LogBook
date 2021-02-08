@@ -1,10 +1,12 @@
 import React from "react";
 import {Link} from 'react-router-dom';
+import CustomHelmet from "../../../../components/CustomHelmet";
 import "./Profile.scss";
 
 export const Profile = () => {
   return (
     <section className="section-profile">
+      <CustomHelmet title="Profile" />
       <div className="div-cover">
         <a className="nav-link" role="button">
           <img
