@@ -1,7 +1,7 @@
 import React from 'react'
 
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
-import DashBoardScreen from '../views/dashboard/DashBoardScreen';
+import DashBoardScreen from '../pages/dashboard/DashBoardScreen';
 // import LandingScreen from '../views/landing/LandingScreen';
 
 // Router global

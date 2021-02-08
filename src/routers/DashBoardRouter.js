@@ -1,16 +1,16 @@
-import {Redirect, Route, Switch} from 'react-router-dom';
+import { Redirect, Route, Switch } from 'react-router-dom';
 
-import Error from '../views/dashboard/components/error/Error';
-import Filter from '../views/dashboard/components/filter/Filter';
-import Home from '../views/dashboard/components/home/Home';
-import ActivityLog from '../views/dashboard/components/log/ActivityLog';
-import MessageScreen from '../views/dashboard/components/messages/MessageScreen';
-import NewUser from '../views/dashboard/components/newUser/NewUser';
-import NotificationScreen from '../views/dashboard/components/notifications/NotificationScreen';
-import Opinion from '../views/dashboard/components/opinion/Opinion';
-import Profile from '../views/dashboard/components/profile/Profile';
-import SearchScreen from '../views/dashboard/components/search/SearchScreen';
-import Settings from '../views/dashboard/components/settings/Settings';
+import Error from '../pages/dashboard/components/error/Error';
+import Filter from '../pages/dashboard/components/filter/Filter';
+import Home from '../pages/dashboard/components/home/Home';
+import ActivityLog from '../pages/dashboard/components/log/ActivityLog';
+import MessageScreen from '../pages/dashboard/components/messages/MessageScreen';
+import NewUser from '../pages/dashboard/components/newUser/NewUser';
+import NotificationScreen from '../pages/dashboard/components/notifications/NotificationScreen';
+import Opinion from '../pages/dashboard/components/opinion/Opinion';
+import Profile from '../pages/dashboard/components/profile/Profile';
+import SearchScreen from '../pages/dashboard/components/search/SearchScreen';
+import Settings from '../pages/dashboard/components/settings/Settings';
 
 export const DashBoardRouter = () => {
   return (
@@ -44,4 +44,3 @@ export const DashBoardRouter = () => {
 }
 
 export default DashBoardRouter;
-
