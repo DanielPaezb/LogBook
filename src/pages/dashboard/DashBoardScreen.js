@@ -2,8 +2,6 @@ import React from 'react'
 import DashBoardRouter from '../../routers/DashBoardRouter';
 import NavBar from './components/ui/navbar/NavBar';
 import Sidebar from './components/ui/sidebar/Sidebar';
-import Footer from './components/ui/footer/Footer';
-
 
 export const DashBoardScreen = () => {
   return (
@@ -20,7 +18,6 @@ export const DashBoardScreen = () => {
                         </div>
                     </div>
                 </div>
-                <Footer /> 
         </div>
     </div>
 
