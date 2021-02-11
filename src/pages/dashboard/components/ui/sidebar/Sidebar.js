@@ -52,10 +52,9 @@ const Sidebar = () => {
       <li className="nav-item">
         <Link className="nav-link" to="/dash/feelback" >
           <i className="far fa-comment-alt"></i>
-          <span>Feelback</span>
+          <span>Opinion</span>
         </Link>
       </li>
-
     </ul>
   )
 }

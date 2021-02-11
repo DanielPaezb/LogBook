@@ -12,6 +12,7 @@ import Profile from '../pages/dashboard/components/profile/Profile';
 import SearchScreen from '../pages/dashboard/components/search/SearchScreen';
 import Settings from '../pages/dashboard/components/settings/Settings';
 
+
 export const DashBoardRouter = () => {
   return (
     <Switch>
