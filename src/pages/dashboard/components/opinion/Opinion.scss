@@ -1,5 +1,16 @@
-textarea{
-    resize: none;
+.text-area {
+	resize: none;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+
+.text-area:focus {
+	border-bottom: 2px solid #3057c9;
+	/* Quitar borde azul de los inputs de Bootstrap */
+	outline: none !important;
+	outline-width: 0 !important;
+	box-shadow: none;
 }
 
 /* Sistma de estrellas */
@@ -14,7 +25,7 @@ textarea{
 	/* Volver a dar tamaño al texto */
 	font-size: 32px;
 	font-size: 2rem;
-	
+
 	color: #888;
 }
 
@@ -27,6 +38,27 @@ textarea{
 }
 
 /* Editar el tamaño de la card */
-.tamaño-targeta{
-	width: 50%;
+.tamaño-targeta {
+	width: 60%;
+	height: 340px;
+}
+
+.input-titulo {
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	outline: 0 none;
+}
+
+.input-titulo:focus {
+	outline: none !important;
+	outline-width: 0 !important;
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	border-bottom: 2px solid #3057c9;
+}
+
+.centrar {
+	margin: 0 auto;
 }
